@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  place-items: center;
+}
+
+/* login start */
+
+.login {
+  max-width: 400px;
+  width: 100%;
+  padding: 60px 25px;
+  height: auto;
+  background-color: #fff;
+  box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.login-logo{
+    max-width: 280px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 20px;
+}
+
+.login-logo img:not(:last-child) {
+  width: 100%;
+}
+
+.login-logo img:last-child{
+  width: 50%;
+}
+
+.login-title{
+    margin-bottom: 20px;
+}
+
+.login-title h1{
+    font-weight: 800;
+    color: #212529;
+    font-size: 36px;
+    margin-bottom: 3px;
+}
+
+.login-title p{
+    font-weight: 500;
+    color: #6C757D;
+    text-transform: capitalize;
+    letter-spacing: .02rem;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.login-input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.login-input input{
+    width: 80%;
+    height: 40px;
+    border-radius: 6px;
+    border: 2px solid #CED4DA;
+    padding: 20px 60px 20px 20px;
+    outline-color: #0092DD !important;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0092DD;
+}
+
+.login-input input::placeholder{
+    color: #ADB5BD;
+    font-size: 16px;
+}
+
+.login-input i{
+    position: absolute;
+    font-size: 18px;
+    color: #ADB5BD;
+    position: absolute;
+    right: 15%;
+}
+
+.btn-login{
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0092DD;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    box-shadow: 0px 10px 20px rgb(0, 146, 221, 0.1);
+}
